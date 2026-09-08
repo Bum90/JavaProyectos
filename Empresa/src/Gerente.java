@@ -6,7 +6,7 @@ public class Gerente extends Empleado {
         this.bono = bono;
     }
 
-    // Esto de acá es polimorfismo en acción
+    // Esto de acá es polimorfismo
     @Override
     public double calcularSueldo() {
         return sueldoBase + bono;

@@ -22,3 +22,26 @@ Repositorio donde subo mis ejercicios y proyectos mientras aprendo Java. La idea
 - Manejo de excepciones
 
 ## 🗂️ Estructura del repositorio
+
+Cada carpeta corresponde a un ejercicio o proyecto independiente, con sus propias clases y una clase `Main` para probarlo.
+
+## ▶️ Cómo correr un proyecto
+
+```bash
+cd NombreDelProyecto
+javac *.java
+java Main
+```
+
+## 🎯 Objetivo
+
+Este repo es principalmente para práctica personal y seguimiento de mi aprendizaje en la facultad/curso de Java. Si encontrás algo para mejorar o corregir, ¡los comentarios son bienvenidos!
+
+## 🛠️ Tecnologías
+
+- Java (JDK 25)
+- IntelliJ IDEA
+
+---
+
+📌 *Repositorio en construcción — se irán agregando más ejercicios con el tiempo.*
