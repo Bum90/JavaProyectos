@@ -7,12 +7,18 @@ Repositorio donde subo mis ejercicios y proyectos mientras aprendo Java. La idea
 | Proyecto | Descripción | Conceptos aplicados |
 |---|---|---|
 | [`Biblioteca`](./Biblioteca) | Modelado de una biblioteca que gestiona una colección de libros | Clases, encapsulamiento, agregación, `ArrayList` |
-| [`Composicion y Agregacion`](./ComposicionyAgregacion) | Ejercicios de práctica sobre relaciones de agregación y composición en Java | Clases, agregación, composición |
+| [`ComposiciónyAgregación`](./ComposiciónyAgregación) | Ejercicios de práctica sobre relaciones de agregación y composición en Java | Clases, agregación, composición |
+| [`Empresa`](./Empresa) | Modelado de una empresa con distintos tipos de empleados (Gerente, Vendedor) | Herencia, `extends`, `super`, sobrescritura de métodos (polimorfismo), `protected` |
 
 > Esta tabla se va a ir actualizando a medida que suba nuevos proyectos.
 
 ## 🧠 Conceptos que voy practicando
 
 - Clases y objetos
-- Encapsulamiento (atributos privados, getters y setters)
-- Relaciones entre clases: asociación, agregación y
+- Encapsulamiento (atributos privados/protegidos, getters y setters)
+- Relaciones entre clases: asociación, agregación y composición
+- Herencia (`extends`, `super`) y polimorfismo (`@Override`)
+- Colecciones (`ArrayList`, `HashMap`)
+- Manejo de excepciones
+
+## 🗂️ Estructura del repositorio
