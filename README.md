@@ -39,7 +39,7 @@ Este repo es principalmente para práctica personal y seguimiento de mi aprendiz
 
 ## 🛠️ Tecnologías
 
-- Java (JDK 17+)
+- Java (JDK 25)
 - IntelliJ IDEA
 
 ---
