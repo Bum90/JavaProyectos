@@ -6,6 +6,13 @@ Repositorio donde subo mis ejercicios y proyectos mientras aprendo Java. La idea
 
 | Proyecto | Descripción | Conceptos aplicados |
 |---|---|---|
-| [`biblioteca-libros`](./biblioteca-libros) | Modelado de una biblioteca que gestiona una colección de libros | Clases, encapsulamiento, agregación, `ArrayList` |
+| [`Biblioteca`](./Biblioteca) | Modelado de una biblioteca que gestiona una colección de libros | Clases, encapsulamiento, agregación, `ArrayList` |
+| [`Composicion y Agregacion`](./ComposicionyAgregacion) | Ejercicios de práctica sobre relaciones de agregación y composición en Java | Clases, agregación, composición |
 
-> Esta tabla se va a ir
+> Esta tabla se va a ir actualizando a medida que suba nuevos proyectos.
+
+## 🧠 Conceptos que voy practicando
+
+- Clases y objetos
+- Encapsulamiento (atributos privados, getters y setters)
+- Relaciones entre clases: asociación, agregación y
