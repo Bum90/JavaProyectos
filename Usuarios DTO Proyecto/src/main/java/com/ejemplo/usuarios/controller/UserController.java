@@ -2,9 +2,7 @@ package com.ejemplo.usuarios.controller;
 
 import com.ejemplo.usuarios.dto.UserDTO;
 import com.ejemplo.usuarios.service.UserService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -21,5 +19,10 @@ public class UserController {
     @GetMapping
     public List<UserDTO> getUsers() {
         return userService.getAllUsers();
+    }
+
+    @PostMapping
+    public UserDTO createUser(@RequestBody UserDTO dto) {
+        return userService.createUser(dto);
     }
 }

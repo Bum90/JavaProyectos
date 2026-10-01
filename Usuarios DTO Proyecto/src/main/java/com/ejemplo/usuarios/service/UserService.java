@@ -30,4 +30,19 @@ public class UserService {
         }
         return dtos;
     }
+
+    public UserDTO createUser(UserDTO dto) {
+        UserEntity entity = new UserEntity();
+        entity.setNombre(dto.getNombre());
+        entity.setEmail(dto.getEmail());
+
+        UserEntity guardado = userRepository.save(entity);
+
+        UserDTO respuesta = new UserDTO();
+        respuesta.setId(guardado.getId());
+        respuesta.setNombre(guardado.getNombre());
+        respuesta.setEmail(guardado.getEmail());
+        return respuesta;
+    }
+
 }
