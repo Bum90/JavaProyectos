@@ -10,7 +10,7 @@ Repositorio donde subo mis ejercicios y proyectos mientras aprendo Java. La idea
 | [`Composición y Agregación`](./Composición%20y%20Agregación) | Ejercicios de práctica sobre relaciones de agregación y composición en Java | Clases, agregación, composición |
 | [`Empresa`](./Empresa) | Modelado de una empresa con distintos tipos de empleados (Gerente, Vendedor) | Herencia, `extends`, `super`, sobrescritura de métodos (polimorfismo), `protected` |
 | [`Modelado de Clases - Bases de Datos`](./Modelado%20de%20Clases%20-%20Bases%20de%20Datos) | Modelado de dos sistemas (campañas de marketing digital y comunidad de videojuegos), con clases de asociación para relaciones muchos a muchos | Encapsulamiento, asociación entre clases, relaciones N:M, Spring Boot, `CommandLineRunner` |
-| [`Usuarios DTO Proyecto`](./Usuarios%20DTO%20Proyecto) | API REST de usuarios con arquitectura en capas (Controller → Service → Repository) conectada a PostgreSQL. Endpoint `GET /usuarios` funcionando y probado con Postman; `POST` en desarrollo | Spring Boot, Spring Data JPA, Hibernate, PostgreSQL, Entity, DTO, inyección de dependencias, API REST |
+| [`Usuarios DTO Proyecto`](./Usuarios%20DTO%20Proyecto) | API REST de usuarios con arquitectura en capas (Controller → Service → Repository) conectada a PostgreSQL. Endpoint `GET /usuarios` funcionando y probado con Postman; `GET` y `POST`  funcionando | Spring Boot, Spring Data JPA, Hibernate, PostgreSQL, Entity, DTO, inyección de dependencias, API REST |
 
 > Esta tabla se va a ir actualizando a medida que suba nuevos proyectos.
 
