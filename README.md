@@ -9,6 +9,7 @@ Repositorio donde subo mis ejercicios y proyectos mientras aprendo Java. La idea
 | [`Biblioteca`](./Biblioteca) | Modelado de una biblioteca que gestiona una colección de libros | Clases, encapsulamiento, agregación, `ArrayList` |
 | [`ComposiciónyAgregación`](./ComposiciónyAgregación) | Ejercicios de práctica sobre relaciones de agregación y composición en Java | Clases, agregación, composición |
 | [`Empresa`](./Empresa) | Modelado de una empresa con distintos tipos de empleados (Gerente, Vendedor) | Herencia, `extends`, `super`, sobrescritura de métodos (polimorfismo), `protected` |
+| [`Modelado de Clases - Bases de Datos`](./Modelado%20de%20Clases%20-%20Bases%20de%20Datos) | Modelado de dos sistemas (campañas de marketing digital y comunidad de videojuegos), con clases de asociación para relaciones muchos a muchos | Encapsulamiento, asociación entre clases, relaciones N:M, Spring Boot, `CommandLineRunner` |
 
 > Esta tabla se va a ir actualizando a medida que suba nuevos proyectos.
 
@@ -20,18 +21,23 @@ Repositorio donde subo mis ejercicios y proyectos mientras aprendo Java. La idea
 - Herencia (`extends`, `super`) y polimorfismo (`@Override`)
 - Colecciones (`ArrayList`, `HashMap`)
 - Manejo de excepciones
+- Spring Boot básico (`@Component`, `CommandLineRunner`)
 
 ## 🗂️ Estructura del repositorio
 
-Cada carpeta corresponde a un ejercicio o proyecto independiente, con sus propias clases y una clase `Main` para probarlo.
+Cada carpeta corresponde a un ejercicio o proyecto independiente, con sus propias clases y una clase `Main` para probarlo (o, en el caso de proyectos con Spring Boot, una clase `Runner` que cumple ese rol).
 
 ## ▶️ Cómo correr un proyecto
+
+Para los ejercicios simples (sin Spring Boot):
 
 ```bash
 cd NombreDelProyecto
 javac *.java
 java Main
 ```
+
+Para proyectos con Spring Boot (como `TP1 - Bases de Datos`), abrir la carpeta del proyecto con IntelliJ IDEA y ejecutar la clase principal anotada con `@SpringBootApplication`.
 
 ## 🎯 Objetivo
 
@@ -41,6 +47,7 @@ Este repo es principalmente para práctica personal y seguimiento de mi aprendiz
 
 - Java (JDK 25)
 - IntelliJ IDEA
+- Spring Boot
 
 ---
 
